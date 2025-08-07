@@ -11,13 +11,13 @@ import java.time.LocalDate;
 
 public class OrderDAO {
 
-    public void insertOrder(String client, String date, double total){
+    public void insertOrder(String client, Date date, double total){
 
-        String SQLQuery = "INSERT INTO pedidos (cliente, data_pedido, total) VALUES (?, ?,?)";
+        String SQLQuery = "INSERT INTO pedidos (cliente, data_pedido, total) VALUES (?,?,?)";
 
         try(Connection conn = Conexao.conectar(); PreparedStatement stmt = conn.prepareStatement(SQLQuery)){
             stmt.setString(1, client);
-            stmt.setString(2, date);
+            stmt.setDate(2, date);
             stmt.setDouble(3, total);
             stmt.executeUpdate();
             System.out.println("Order successfully inserted!!!");
