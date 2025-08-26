@@ -1,7 +1,7 @@
-package code.insert.order.main;
+package code.exercises.objects.order.main;
 
-import code.insert.order.service.OrderDAO;
-import code.insert.order.view.OrderView;
+import code.exercises.objects.order.service.OrderDAO;
+import code.exercises.objects.order.view.OrderView;
 
 import java.sql.Date;
 import java.time.LocalDate;

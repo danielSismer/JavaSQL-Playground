@@ -1,13 +1,11 @@
-package code.insert.order.service;
+package code.exercises.objects.order.service;
 
 import code.Conexao;
-import code.insert.product.service.ProductDAO;
 
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.time.LocalDate;
 
 public class OrderDAO {
 

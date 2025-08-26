@@ -1,4 +1,4 @@
-package code.insert.product.service;
+package code.exercises.objects.product.service;
 
 import code.Conexao;
 import java.sql.Connection;

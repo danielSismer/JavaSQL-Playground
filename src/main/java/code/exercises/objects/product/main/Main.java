@@ -1,7 +1,7 @@
-package code.insert.product.main;
+package code.exercises.objects.product.main;
 
-import code.insert.product.service.ProductDAO;
-import code.insert.product.view.ProductViewer;
+import code.exercises.objects.product.service.ProductDAO;
+import code.exercises.objects.product.view.ProductViewer;
 
 public class Main {
 

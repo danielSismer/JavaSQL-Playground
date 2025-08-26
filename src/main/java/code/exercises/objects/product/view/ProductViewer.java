@@ -1,4 +1,4 @@
-package code.insert.product.view;
+package code.exercises.objects.product.view;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package code.insert.order.view;
+package code.exercises.objects.order.view;
 
 import java.util.Scanner;
 
